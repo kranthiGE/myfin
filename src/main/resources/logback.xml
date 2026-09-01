@@ -1,0 +1,16 @@
+<configuration>
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+    <!-- Set logging level for a specific package to DEBUG -->
+    <!-- <logger name="com.mypackage.MyClass" level="DEBUG" /> -->
+
+    <!-- Set the default logging level (root logger) to INFO -->
+    
+    <root level="INFO">
+        <appender-ref ref="CONSOLE" />
+    </root>
+    
+</configuration> 
