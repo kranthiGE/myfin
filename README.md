@@ -8,6 +8,8 @@ The application is intentionally simple.
 
 This project is a practical demonstration of architectural principles that I have applied in Enterprise Systems and Integrations, made publicly available through a small and easy-to-understand codebase.
 
+Click here to read a detailed article on [HashNode](https://kranthikiran.hashnode.dev/hexagonal-architecture)
+
 ---
 
 ## Why Myfin?
